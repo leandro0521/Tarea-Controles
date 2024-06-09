@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path \"c:\\Users\\Hp\\Downloads\\openjfx-17.0.8_windows-x64_bin-sdk (1)\\javafx-sdk-17.0.8\\lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "InterfazGUI",
+            "request": "launch",
+            "mainClass": "Interfaz.InterfazGUI",
+            "projectName": "Interfaz_Fecha_Colores_401a8c69",
+            "vmArgs": "--module-path \"c:\\Users\\Hp\\Downloads\\openjfx-17.0.8_windows-x64_bin-sdk (1)\\javafx-sdk-17.0.8\\lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
